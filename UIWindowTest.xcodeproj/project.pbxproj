@@ -13,6 +13,7 @@
 		D683BDC81F3173E100535138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D683BDC61F3173E100535138 /* Main.storyboard */; };
 		D683BDCA1F3173E100535138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D683BDC91F3173E100535138 /* Assets.xcassets */; };
 		D683BDCD1F3173E100535138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D683BDCB1F3173E100535138 /* LaunchScreen.storyboard */; };
+		D683BDD61F31740E00535138 /* LYZWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D683BDD51F31740E00535138 /* LYZWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D683BDC91F3173E100535138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D683BDCC1F3173E100535138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D683BDCE1F3173E100535138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D683BDD41F31740E00535138 /* LYZWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYZWindow.h; sourceTree = "<group>"; };
+		D683BDD51F31740E00535138 /* LYZWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYZWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D683BDC11F3173E100535138 /* AppDelegate.m */,
 				D683BDC31F3173E100535138 /* ViewController.h */,
 				D683BDC41F3173E100535138 /* ViewController.m */,
+				D683BDD41F31740E00535138 /* LYZWindow.h */,
+				D683BDD51F31740E00535138 /* LYZWindow.m */,
 				D683BDC61F3173E100535138 /* Main.storyboard */,
 				D683BDC91F3173E100535138 /* Assets.xcassets */,
 				D683BDCB1F3173E100535138 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D683BDC51F3173E100535138 /* ViewController.m in Sources */,
+				D683BDD61F31740E00535138 /* LYZWindow.m in Sources */,
 				D683BDC21F3173E100535138 /* AppDelegate.m in Sources */,
 				D683BDBF1F3173E100535138 /* main.m in Sources */,
 			);
